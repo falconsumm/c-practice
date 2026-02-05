@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int temperature;
+    scanf("%d", &temperature);
+
+    // Expression (temperature > 90) will return either 0 or 1 
+    switch(temperature > 90) {   
+        case 0: 
+            printf("COLD");
+            break;
+        case 1: 
+            printf("HOT");
+            break;
+    }
+
+    return 0;
+}
